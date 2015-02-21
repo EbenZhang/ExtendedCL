@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionEx", "CollectionEx\CollectionEx.csproj", "{E4142C9C-2AFD-4579-97E2-767F3196AC4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedCL", "ExtendedCL\ExtendedCL.csproj", "{E4142C9C-2AFD-4579-97E2-767F3196AC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionEx.Test", "CollectionEx.Test\CollectionEx.Test.csproj", "{6907E9A0-DB35-4157-96B6-912887674358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedCL.Test", "ExtendedCL.Test\ExtendedCL.Test.csproj", "{6907E9A0-DB35-4157-96B6-912887674358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
