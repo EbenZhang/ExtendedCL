@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ExtendedCL
@@ -12,7 +13,8 @@ namespace ExtendedCL
     {
         public readonly static string UserAppDataDir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         public readonly static string ProcessPath = Process.GetCurrentProcess().MainModule.FileName;
-        public readonly static string ProcessBaseName = Path.GetFileNameWithoutExtension(ProcessPath);
+        public readonly static string ProcessBaseName = Path.GetFileNameWithoutExtension(
+            Regex.Replace(ProcessPath, @"(.*)\.vshost\.exe$", @"$1.exe"));
         public readonly static string ProcessAppDir = Path.Combine(UserAppDataDir, ProcessBaseName);
         public readonly static string ProcessDir = Path.GetDirectoryName(ProcessPath);
 
