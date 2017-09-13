@@ -42,7 +42,6 @@
     <Compile Include="MakePair.cs" />
     <Compile Include="IProgressBarProvider.cs" />
     <Compile Include="ObservableCollectionEx.cs" />
-    <Compile Include="PathHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
