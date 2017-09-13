@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MakePair.cs" />
-    <Compile Include="ScopeDisposer.cs" />
     <Compile Include="IProgressBarProvider.cs" />
     <Compile Include="ObservableCollectionEx.cs" />
     <Compile Include="PathHelper.cs" />
